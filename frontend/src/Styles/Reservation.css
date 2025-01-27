@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #121212;
+  color: #ffffff;
+}
+
+.reservation {
+  padding: 100px 20px;
+  background: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-black-meat-western-food-banner-background-image_194600.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.reservation::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.reservation-container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+  background-color: rgba(30, 30, 30, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.reservation-container h2 {
+  font-size: 2rem;
+  color: #e6a157;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.input-field {
+  margin-bottom: 20px;
+}
+
+.input-field label {
+  font-size: 1rem;
+  color: #ebcdb0;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #222;
+  color: #e2b8b8;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Make the input fields gray after being filled */
+.input-field input:valid {
+  background-color: #a9a9a9; /* Gray background */
+  color: #333; /* Darker text */
+}
+
+.input-field input:focus {
+  border-color: #e6a157;
+  box-shadow: 0 0 8px rgba(230, 161, 87, 0.5);
+  background-color: #654c31;
+}
+
+/* Button styling */
+button {
+  background-color: #e6a157;
+  color: #f7eeee;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #d78a32;
+  transform: scale(1.05);
+}
+
+/* Error message styling */
+.error-message {
+  color: #949b9c;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .reservation-container {
+    width: 80%;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,103 @@
+.heroSection {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full height of the viewport */
+  overflow: hidden;
+}
+
+.videoBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Keep the video in the background */
+}
+
+.backgroundVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire section */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+}
+
+.navLinks .links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.menuBtn {
+  background-color: #e6a157;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.menuBtn:hover {
+  background-color: #d78a32;
+}
+
+/* Welcome Description Overlay */
+.welcomeDescription {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 2.5rem;
+  color:green;
+  text-align: center;
+  max-width: 80%;
+  background: rgba(48, 43, 43, 0.5); /* Slightly dark background for readability */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Centered Content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120%; /* Full height of the section */
+  text-align: center;
+}
+
+.largeBox {
+  color: #fff;
+  z-index: 1;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #ccc;
+}

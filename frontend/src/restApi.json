@@ -1,0 +1,152 @@
+{
+    "data": [
+      {
+        "ourQualities": [
+          {
+            "id": 1,
+            "image": "https://i.pinimg.com/originals/d9/72/5a/d9725a42588b9c5083048a830038ec98.jpg",
+            "title": "DELICIOUS FLAVORS",
+            "description": "Savor the perfect blend of spices in every bite, capturing the true essence of Sri Lankan cuisine."
+          },
+          {
+            "id": 2,
+            "image": "https://i.pinimg.com/originals/2c/06/28/2c06287f14e61d0d7b56a6d5cf044220.jpg",
+            "title": "FRESH INGREDIENTS",
+            "description": "Only the freshest ingredients, ensuring every meal is healthy and full of flavor."
+          },
+          {
+            "id": 3,
+            "image": "https://eatbook.sg/wp-content/uploads/2018/05/underground-online-food-delivery-services-don-play-play-1024x1024.jpg",
+            "title": "FAST DELIVERY",
+            "description": "Quick, efficient service that brings your favorite meals hot and fresh to your door."
+          }
+        ],
+        "dishes": [
+          {
+            "id": 3,
+            "image": "./breakfast1.png",
+            "title": "PAN SEARED SEA BASS",
+            "category": "Breakfast"
+          },
+          {
+            "id": 5,
+            "image": "./lunch1.png",
+            "title": "BEEF BURGER MEAL",
+            "category": "Lunch"
+          },
+          {
+            "id": 6,
+            "image": "./dinner4.png",
+            "title": "MUSSELS SOUP",
+            "category": "Dinner"
+          },
+          {
+            "id": 8,
+            "image": "./dinner6.png",
+            "title": "GRILLED FISH",
+            "category": "Dinner"
+          }
+        ],
+        "team": [
+          {
+            "id": 1,
+            "image": "./assets/11.jpg",
+            "name": "SUSITHA PERERA",
+            "designation": "Founder & Head Chef"
+          },
+          {
+            "id": 2,
+            "image": "./assets/12.jpg",
+            "name": "KAVINDI KUMARI",
+            "designation": "Sous Chef"
+          },
+          {
+            "id": 3,
+            "image": "./assets/13.jpg",
+            "name": "RAWAN JAYASINGHE",
+            "designation": "Fast Food Chef"
+          },
+          {
+            "id": 4,
+            "image": "./assets/14.jpg",
+            "name": "CHAMITH GUNAWARDENA",
+            "designation": "Senior Chef"
+          }
+        ],
+        "testimonials": [
+          {
+            "id": 1,
+            "image": "./assets/11.jpg",
+            "description": "Morbi nulla nec dui lacus, in. Libero in pretium metus massa. Sodales dignissim vitae mauris varius faucibus.",
+            "rating": 4,
+            "userName": "Kasuni Perera"
+          },
+          {
+            "id": 2,
+            "image": "./assets/12.jpg",
+            "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in.",
+            "rating": 4.5,
+            "userName": "Niluka Fernando"
+          },
+          {
+            "id": 3,
+            "image": "./assets/13.jpg",
+            "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in.",
+            "rating": 5,
+            "userName": "Sandun Wickramasinghe"
+          }
+        ],
+        "who_we_are": [
+  {
+    "id": 1,
+    "number": "A decade of smiles",
+    "title": "Happy Customers"
+  },
+  {
+    "id": 2,
+    "number": "A team of 25",
+    "title": "Chefs In Kitchen"
+  },
+  {
+    "id": 3,
+    "number": "Over 10 years",
+    "title": "Years Of Experience"
+  },
+  {
+    "id": 4,
+    "number": "300+ dishes",
+    "title": "Food Dishes"
+  }
+]
+,
+        "navbarLinks": [
+          {
+            "id": 1,
+            "title": "HOME",
+            "link": "heroSection"
+          },
+          {
+            "id": 2,
+            "title": "ABOUT US",
+            "link": "about"
+          },
+          {
+            "id": 3,
+            "title": "SERVICES",
+            "link": "qualities"
+          },
+          {
+            "id": 4,
+            "title": "TEAM",
+            "link": "team"
+          },
+          {
+            "id": 5,
+            "title": "RESERVATION",
+            "link": "reservation"
+          }
+        ]
+      }
+    ]
+  }
+  
